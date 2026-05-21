@@ -57,7 +57,7 @@ useEffect(() => {
         className="relative min-h-[92svh] lg:min-h-screen overflow-hidden">
      
     <img
-      src="/images/hero.webp"
+      src="/Images/hero.webp"
       alt="Varka Hero"
       className="absolute inset-0 w-full h-full object-cover object-[84%_center] sm:object-[64%_center] md:object-[72%_center] lg:object-[78%_center] xl:object-center opacity-90"
     />
