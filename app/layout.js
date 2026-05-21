@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Varka Coffee Experience",
   description: "Smith River Medium Roast by Varka Coffee.",
+
+  icons: {
+    icon: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
