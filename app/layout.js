@@ -16,9 +16,28 @@ export const metadata = {
   title: "Varka Coffee Experience",
   description: "Smith River Medium Roast by Varka Coffee.",
 
-  icons: {
-    icon: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
+  openGraph: {
+    title: "Varka Coffee Experience",
+    description: "Smith River Medium Roast by Varka Coffee.",
+    url: "https://experience.shopvarka.com",
+    siteName: "Varka Coffee",
+    images: [
+      {
+        url: "https://experience.shopvarka.com/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "Varka Coffee",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Varka Coffee Experience",
+    description: "Smith River Medium Roast by Varka Coffee.",
+    images: ["https://experience.shopvarka.com/android-chrome-512x512.png"],
   },
 };
 
