@@ -1,23 +1,20 @@
-export default function DataDeletionPage() {
+export default function ConfirmedPage() {
   return (
-    <main
-      style={{
-        minHeight: '100vh',
-        background: '#000',
-        color: '#fff',
-        padding: 40,
-        fontFamily: 'system-ui',
-      }}
-    >
-      <h1>Data Deletion Request</h1>
+    <main style={{
+      maxWidth: "800px",
+      margin: "0 auto",
+      padding: "40px 20px",
+      fontFamily: "Arial, sans-serif",
+      lineHeight: "1.6"
+    }}>
+      <h1>Email Confirmed ✅</h1>
 
       <p>
-        To request deletion of your Hair Business Pro account and associated
-        data, please contact:
+        Your email has been verified successfully.
       </p>
 
       <p>
-        <strong>hwgomezl@gmail.com</strong>
+        You can now return to Hair Business Pro and sign in.
       </p>
     </main>
   );
